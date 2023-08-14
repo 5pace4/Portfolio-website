@@ -430,7 +430,6 @@ a.btn:hover::before {
 .about {
     min-height: 170vh;
     width: 100%;
-    height: 100%;
     background: var(--third-bg-color);
     align-items: center;
     align-content: center;
@@ -674,7 +673,6 @@ a.btn:hover::before {
 .skills {
     min-height: 120vh;
     width: 100%;
-    height: 100%;
     background: var(--third-bg-color);
     /* padding-top: 30px; */
     /* padding: 10px;
@@ -830,7 +828,6 @@ a.btn:hover::before {
 .project {
     min-height: 120vh;
     width: 100%;
-    height: 100%;
     background: var(--first-bg-color);
     padding-top: 30px;
     padding: 10px;
@@ -957,7 +954,6 @@ a.btn:hover::before {
 .contact-form-section {
     min-height: 90vh;
     width: 100%;
-    height: 100%;
     background: var(--third-bg-color);
     padding-top: 30px;
     padding: 10px;
