@@ -151,7 +151,7 @@ header {
     justify-content: center;
 }
 /* responsive*/
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .navbar .links {
         display: none;
     }
@@ -163,7 +163,7 @@ header {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 334px) {
 
     .dropdown-menu {
         left: 2rem;
@@ -397,7 +397,7 @@ a.btn:hover::before {
     margin-left: 33%;
    }
 } 
-@media(max-width: 770px) {
+@media(max-width: 768px) {
 
     .home-container h1 {
         font-size: 1.5rem;
@@ -407,7 +407,7 @@ a.btn:hover::before {
     }
  } 
 
- @media(max-width:600px) {
+ @media(max-width:334px) {
 
     .home-container h1 {
         font-size: 1.1rem;
@@ -569,14 +569,14 @@ a.btn:hover::before {
    text-align: center;
 }
 /* responsive */
-@media (max-width: 952px) {
+@media (max-width: 768px) {
     #about-btn {
         margin-left: 42%;
      }
 }
-@media (max-width: 550px) {
+@media (max-width: 334px) {
     #about-btn {
-        margin-left: 35%;
+        margin-left: 21%;
      }
 }
 
@@ -655,9 +655,17 @@ a.btn:hover::before {
     }
     .edu-exp .education:nth-child(2) {
         margin-top: 30px;
+        margin-left: 10px;
     }
 }
-
+/* @media(max-width: 334px) {
+    .edu-exp {
+        grid-template-columns: 1fr;
+    }
+    .edu-exp .education:nth-child(2) {
+        margin-top: 30px;
+    }
+} */
 
 
 
@@ -810,9 +818,17 @@ a.btn:hover::before {
 }
 
 /* responsive */
-@media (max-width:952px) {
+@media (max-width:768px) {
     .skills {
         min-height: 180vh;
+    }
+    .skill-main {
+        display: block;
+    }
+}
+@media (max-width:334px) {
+    .skills {
+        min-height: 200vh;
     }
     .skill-main {
         display: block;
@@ -1047,10 +1063,23 @@ form {
         margin-bottom: 40px;
     }
     .contact-form{
-        width: 80%;
+        width: 90%;
     }
 }
-
+@media (max-width:334px) {
+    .contact {
+        padding: 25px;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-container .contactinfo {
+        margin-bottom: 20px;
+    }
+    .contact-form{
+        width: 90%;
+    }
+}
 /* contact section end here */
 
 
@@ -1097,6 +1126,11 @@ footer a:hover {
     }
 }
 
+@media (max-width: 334px) {
+    footer a {
+        margin-left: 10%;
+    }
+}
 
 
 
